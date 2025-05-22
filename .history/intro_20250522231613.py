@@ -4,16 +4,12 @@ print("Hello World!")
 
 name = "Ice Cream"
 age = 34
-price = 34.56
+prince = 34.56
 
 print("product name is", name)
 
 # 3 = 45
 # print(3) this is not valid
 
-# 34v = 78
-# print(34v) invalid variable
-
-print(type(name))
-print(type(age))
-print(type(price))
+34v = 78
+print(34v)

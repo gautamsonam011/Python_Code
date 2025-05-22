@@ -4,7 +4,7 @@ print("Hello World!")
 
 name = "Ice Cream"
 age = 34
-price = 34.56
+prince = 34.56
 
 print("product name is", name)
 
@@ -16,4 +16,3 @@ print("product name is", name)
 
 print(type(name))
 print(type(age))
-print(type(price))
