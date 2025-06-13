@@ -72,11 +72,7 @@ for _ in range(10):
 
 import copy 
 
-original = [3, 5, 6, 21, [45, 67], -78]
+original = [3, 5,6 21, [45, 67], -78]
 
 shallow = copy.copy(original)
-print(shallow)
-
-deep = copy.deepcopy(original)
-print(deep)
 
