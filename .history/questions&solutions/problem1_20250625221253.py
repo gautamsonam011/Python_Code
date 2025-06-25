@@ -154,34 +154,6 @@ print("A and B again cross", B)
 
 print("Minimum total time", total_time)
 
-# 4. Locker Riddle
-# There are 100 lockers in a row, all initially closed. One person walks by and toggles every locker (open it if it’s closed, close it if it’s open). A second person toggles every second locker. A third toggles every third locker, and so on, up to the 100th person.
-
-# After all 100 people have walked by, how many lockers are open, and which ones?
-
-open_lockers = []
-
-for i in range(1, 101):
-    if int(i**0.5)**2 == i:
-        open_lockers.append(i)
-
-print("Open lockers:", open_lockers)
-print("Total open lockers:", len(open_lockers))
-
-# 5. Three Light Bulbs
-# You are in a room with three switches, each corresponding to one of three light bulbs in another room. Once you leave the room to check the bulbs, you cannot return to the switch room.
-
-# How can you determine which switch controls which bulb?
-
-# 6. Water Jug Problem
-# You have a 5-liter jug and a 3-liter jug, and access to unlimited water.
-
-# How can you measure exactly 4 liters?
-
-# 7. Coin Flip Puzzle
-# You have 100 coins on a table, with exactly 10 coins showing heads, but you cannot see them. You are allowed to split them into two groups and flip any coins in either group.
-
-# How do you split and flip to ensure each group has the same number of heads?
 
 
 

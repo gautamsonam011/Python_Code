@@ -164,24 +164,10 @@ open_lockers = []
 for i in range(1, 101):
     if int(i**0.5)**2 == i:
         open_lockers.append(i)
-
+        
 print("Open lockers:", open_lockers)
 print("Total open lockers:", len(open_lockers))
 
-# 5. Three Light Bulbs
-# You are in a room with three switches, each corresponding to one of three light bulbs in another room. Once you leave the room to check the bulbs, you cannot return to the switch room.
-
-# How can you determine which switch controls which bulb?
-
-# 6. Water Jug Problem
-# You have a 5-liter jug and a 3-liter jug, and access to unlimited water.
-
-# How can you measure exactly 4 liters?
-
-# 7. Coin Flip Puzzle
-# You have 100 coins on a table, with exactly 10 coins showing heads, but you cannot see them. You are allowed to split them into two groups and flip any coins in either group.
-
-# How do you split and flip to ensure each group has the same number of heads?
 
 
 

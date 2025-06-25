@@ -173,15 +173,6 @@ print("Total open lockers:", len(open_lockers))
 
 # How can you determine which switch controls which bulb?
 
-# 6. Water Jug Problem
-# You have a 5-liter jug and a 3-liter jug, and access to unlimited water.
-
-# How can you measure exactly 4 liters?
-
-# 7. Coin Flip Puzzle
-# You have 100 coins on a table, with exactly 10 coins showing heads, but you cannot see them. You are allowed to split them into two groups and flip any coins in either group.
-
-# How do you split and flip to ensure each group has the same number of heads?
 
 
 
