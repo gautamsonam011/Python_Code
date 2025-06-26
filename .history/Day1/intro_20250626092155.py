@@ -31,3 +31,5 @@ multi-line
 comment
 
 """
+l = ["hello", 2, 4, 5]
+print(len(l))

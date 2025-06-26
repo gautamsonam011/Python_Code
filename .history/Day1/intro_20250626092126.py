@@ -23,3 +23,13 @@ num2 = 200
 
 sum = num1+num2 
 print(sum)
+
+# comments
+
+"""
+multi-line
+comment
+
+"""
+
+print(len["hello", 2, 4, 5])

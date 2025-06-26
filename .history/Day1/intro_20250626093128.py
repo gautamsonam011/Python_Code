@@ -17,3 +17,28 @@ print("product name is", name)
 print(type(name))
 print(type(age))
 print(type(price))
+
+num1 = 100
+num2 = 200
+
+sum = num1+num2 
+print(sum)
+
+# comments
+
+"""
+multi-line
+comment
+
+"""
+l = ["hello", 2, 4, 5]
+
+print(len(l))
+
+# What will be the output of the following Python code?
+i = 1
+while True:
+    if i%3 == 0:
+        break
+    print(i)
+    i += 1
